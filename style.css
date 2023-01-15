@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "tomcat";
+    src: url("assets/TOMCAT\ DEMO.otf")
+}
+
+h1{
+    font-family:'tomcat';
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+}
