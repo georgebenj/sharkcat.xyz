@@ -2,11 +2,25 @@
     font-family: "tomcat";
     src: url("assets/TOMCAT\ DEMO.otf")
 }
-
-h1{
-    font-family:'tomcat';
+@font-face {
+    font-family: "dyslexia";
+    src: url("assets/OpenDyslexic-Regular.otf");
+}
+@font-face {
+    font-family: "shimmering";
+    src: url("/assets/shimmering\ TTF.ttf");
 }
 
-h4{
-    font-family: 'Courier New', Courier, monospace;
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2{
+    font-family: "dyslexia";
+}
+h1{
+    font-family: "tomcat";
 }
