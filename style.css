@@ -1,3 +1,38 @@
+body{
+    background-color:#EFE5D1;
+    min-width: 100vw;
+    min-height: 100vh;
+    cursor: url("assets/cursor.png"), auto;
+    font-family: "ripeMango"
+}
+
+.discord{
+    max-width: 50px;
+    margin-bottom:.5rem;
+    transition: transform .2s;
+
+}
+
+.discord:hover{
+    transform: scale(1.2);
+}
+
+.rules{
+    max-width: 200px;
+    transition: transform .2s;
+}
+.plugins{
+    max-width: 200px;
+    transition: transform .2s;
+}
+
+.rules:hover{
+    transform:scale(1.5)
+}
+
+.plugins:hover{
+    transform:scale(1.5)
+}
 @font-face{
     font-family: "tomcat";
     src: url("assets/TOMCAT\ DEMO.otf")
@@ -10,7 +45,10 @@
     font-family: "shimmering";
     src: url("/assets/shimmering\ TTF.ttf");
 }
-
+@font-face {
+    font-family: "ripeMango";
+    src: url("assets/RipeMango-Regular.ttf")
+}
 .center{
     display: flex;
     justify-content: center;
@@ -19,11 +57,13 @@
 }
 
 h2{
-    font-family: "dyslexia";
+    font-size: 3.5rem;
+    font-family: "ripeMango";
 }
 h1{
-    font-family: "tomcat";
+    font-size: 2.5rem;
+    font-family: "ripeMango";
 }
 tr{
-    color: darkgray;
+    color: rgb(135, 131, 131);
 }

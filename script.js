@@ -1,4 +1,4 @@
-const api_url = "https://api.mcsrvstat.us/2/mc.sharkcat.xyz"
+const api_url = "https://api.mcsrvstat.us/2/198.244.209.168"
 const on_or_off = document.getElementById("status");
 const players = document.getElementById("players");
 const version = document.getElementById("version");
