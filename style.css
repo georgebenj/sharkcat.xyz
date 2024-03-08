@@ -7,9 +7,10 @@ body{
 }
 
 .discord{
-    max-width: 50px;
+    max-width: 60px;
     margin-bottom:.5rem;
     transition: transform .2s;
+    z-index: 7;
 
 }
 
@@ -66,4 +67,51 @@ h1{
 }
 tr{
     color: rgb(135, 131, 131);
+}
+
+#minecraft {
+    color: #FFFF00;
+    font-size: 1.5em;
+    font-family:'minecraftfont';
+    text-shadow:3px 3px #3F3F00;
+    padding: 5px;
+    position:absolute;
+    top: -90px;
+    left: 100px;
+    z-index: 1;
+}
+.pop {
+    animation: pop 0.58s infinite;
+    -webkit-animation: pop 0.58s infinite;
+}
+@keyframes pop {
+    from {
+        transform:scale(0.95)
+    }
+    50% {
+        transform:scale(1)
+    }
+    to {
+        transform:scale(0.95)
+    }
+}
+@-webkit-keyframes pop {
+    from {
+        -webkit-transform:scale(0.95)
+    }
+    50% {
+        -webkit-transform:scale(1)
+    }
+    to {
+        -webkit-transform:scale(0.95)
+    }
+}
+.tilt {
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+@font-face {
+    font-family:'minecraftfont';
+    src: url('assets/Minecraftia-Regular.ttf');
 }
